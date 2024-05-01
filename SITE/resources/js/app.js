@@ -1,13 +1,8 @@
 // Create variable for container
 const containerEl = document.querySelector(".container");
 // Create array of careers
-const careers = [
-  "Husband",
-  "Father",
-  "Web Developer",
-  "Software Developer",
-  "Jonathan Campbell",
-];
+const careers = ["Husband", "Father", "Web Developer", "Software Developer"];
+
 // set variable for index of careers
 let careerIndex = 0;
 // set variable for index of characters
@@ -40,5 +35,5 @@ function updateText() {
     careerIndex = 0;
   }
   // Call the updateText function again with a 300ms delay
-  setTimeout(updateText, 300);
+  setTimeout(updateText, 220);
 }
